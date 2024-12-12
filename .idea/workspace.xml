@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08aae8df-c978-40ee-b62c-7cfa4c68eb15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/books_by_categories/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/main_page/book_detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/main_page/book_list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tags/all_books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tags/kids_books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tags/pensioners_books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tags/teenagers_books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tags/youth_books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/components/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/components/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/month_4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library_blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/library_blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library_blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/library_blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/book_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book_detail.html" afterDir="false" />
-    </list>
+    <list default="true" id="08aae8df-c978-40ee-b62c-7cfa4c68eb15" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +78,7 @@
       <workItem from="1733941752343" duration="151000" />
       <workItem from="1733942058981" duration="110000" />
       <workItem from="1733942179077" duration="2829000" />
-      <workItem from="1734017402375" duration="8193000" />
+      <workItem from="1734017402375" duration="8501000" />
     </task>
     <servers />
   </component>
