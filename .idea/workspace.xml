@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08aae8df-c978-40ee-b62c-7cfa4c68eb15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/main_page/tags.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tags/all_books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tags/pensioner_books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tags/youth_books.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books_by_categories/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/books_by_categories/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books_by_categories/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/books_by_categories/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books_by_categories/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/books_by_categories/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books_by_categories/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books_by_categories/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tags/all_books.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tags/children_books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tags/kids_books.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tags/teenager_books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tags/pensioners_books.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tags/teenagers_books.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tags/youth_books.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +82,8 @@
       <workItem from="1733942058981" duration="110000" />
       <workItem from="1733942179077" duration="2829000" />
       <workItem from="1734017402375" duration="10396000" />
-      <workItem from="1734172698162" duration="358000" />
+      <workItem from="1734172698162" duration="624000" />
+      <workItem from="1734189148657" duration="306000" />
     </task>
     <servers />
   </component>
