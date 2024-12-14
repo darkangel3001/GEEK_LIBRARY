@@ -7,10 +7,14 @@ class Tag(models.Model):
     def __str__(self):
         return self.name
 
-class Book(models.Model):
-    name = models.CharField(max_length=100)
-    price = models.FloatField(default=100)
+class Books(models.Model):
+    name = models.CharField(max_length=100, verbose_name='Введите название книги')
+    price = models.FloatField(default=100, verbose_name='Задайте цену книги')
     tags = models.ManyToManyField(Tag)
+
+    class Meta:
+        verbose_name = 'Книга'
+        verbose_name_plural = 'Книги'
 
     def __str__(self):
         return self.name

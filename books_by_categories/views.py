@@ -3,51 +3,35 @@ from . import models
 
 
 def all_books(request):
-    if request.method == "GET":
-        books = models.Book.objects.all().order_by('-id')
+    if request.method == 'GET':
+        books = models.Books.objects.all().order_by('-id')
         context = {'books': books}
-        return render(
-            request,
-            template_name='tags/all_books.html',
-            context=context
-        )
+        return render(request,template_name='tags/all_books.html',context=context)
 
-def kids_books(request):
-    if request.method == "GET":
-        books_kids = models.Book.objects.filter(tags__name='Книги для детей').order_by('-id')
-        context = {'books_kids': books_kids}
-        return render(
-            request,
-            template_name='tags/kids_books.html',
-            context=context
-        )
 
-def teenagers_books(request):
-    if request.method == "GET":
-        books_teenagers = models.Book.objects.filter(tags__name='Книги для подростков').order_by('-id')
-        context = {'books_teenagers': books_teenagers}
-        return render(
-            request,
-            template_name='tags/teenagers_books.html',
-            context=context
-        )
+def children_books(request):
+    if request.method == 'GET':
+        books_children = models.Books.objects.filter(tags__name='Детей').order_by('-id')
+        context = {'books_children': books_children}
+        return render(request,template_name='tags/children_books.html',context=context)
+
+
+def teenager_books(request):
+    if request.method == 'GET':
+        books_teenager = models.Books.objects.filter(tags__name='Подростков').order_by('-id')
+        context = {'books_teenager': books_teenager}
+        return render(request,template_name='tags/teenager_books.html',context=context)
+
 
 def youth_books(request):
-    if request.method == "GET":
-        books_youth = models.Book.objects.filter(tags__name='Книги для молодежи').order_by('-id')
+    if request.method == 'GET':
+        books_youth = models.Books.objects.filter(tags__name='Молодежи').order_by('-id')
         context = {'books_youth': books_youth}
-        return render(
-            request,
-            template_name='tags/youth_books.html',
-            context=context
-        )
+        return render(request,template_name='tags/youth_books.html',context=context)
 
-def pensioners_books(request):
-    if request.method == "GET":
-        books_pensioners = models.Book.objects.filter(tags__name='Книги для пенсионеров').order_by('-id')
-        context = {'books_pensioners': books_pensioners}
-        return render(
-            request,
-            template_name='tags/pensioners_books.html',
-            context=context
-        )
+
+def pensioner_books(request):
+    if request.method == 'GET':
+        books_pensioner = models.Books.objects.filter(tags__name='Пенсионеров').order_by('-id')
+        context = {'books_pensioner': books_pensioner}
+        return render(request,template_name='tags/pensioner_books.html',context=context)
