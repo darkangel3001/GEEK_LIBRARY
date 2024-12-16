@@ -6,7 +6,7 @@ def all_books(request):
     if request.method == 'GET':
         books = models.Books.objects.all().order_by('-id')
         context = {'books': books}
-        return render(request,template_name='tags/all_books.html',context=context)
+        return render(request,template_name='tags/all_books.html',context=contextp)
 
 
 def children_books(request):

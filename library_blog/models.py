@@ -38,5 +38,9 @@ class Review(models.Model):
     stars = models.CharField(max_length=100, choices=STARS, verbose_name='поставьте оценку',
                              default='⭐')
 
+    class Meta:
+        verbose_name = 'Отзыв'
+        verbose_name_plural = 'Отзывы'
+
     def __str__(self):
         return f'{self.book}:{self.stars}'
