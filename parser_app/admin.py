@@ -1,4 +1,4 @@
 from django.contrib import admin
-from parser_app.models import ManasModel
+from parser_app.models import KinoogoModel
 
-admin.site.register(ManasModel)
+admin.site.register(KinoogoModel)
