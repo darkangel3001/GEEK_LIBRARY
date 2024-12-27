@@ -1,8 +1,6 @@
 from pathlib import Path
 import os
 
-from django.conf.global_settings import STATICFILES_DIRS, MEDIA_ROOT, MEDIA_URL
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -11,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-ho#wk$e9uxuxx@e%t5ctdeggz6)j5&me4-4#@t4^maa+cs$cza'
+SECRET_KEY = 'django-insecure-ne7b7damdfuh2d=ltj2@e^z=k%(9%n(8pq*x0o)1^^8#eeh#%('
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -29,9 +27,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'library_blog',
-    'books_by_categories',
-    'Basket',
+    'age_rest_books',
+    'basket',
     'parser_app',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -42,6 +41,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'users.middlewares.ITLevelMiddleware',
 ]
 
 ROOT_URLCONF = 'main_app.urls'
@@ -114,7 +114,6 @@ STATIC_URL = 'static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR / 'media')
 STATICFILES_DIRS = [BASE_DIR / 'static']
-
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field

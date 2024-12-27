@@ -7,6 +7,7 @@ class KinoogoListView(generic.ListView):
     template_name = 'parser/kinoogo_list.html'
     context_object_name = 'kinoogo'
     model = models.KinoogoModel
+    paginate_by = 5
 
     def get_queryset(self):
         return self.model.objects.all().order_by('-id')
@@ -19,6 +20,6 @@ class KinoogoFormView(generic.FormView):
         form = self.form_class(request.POST)
         if form.is_valid():
             form.parser_data()
-            return HttpResponse('STATUS 300')
+            return HttpResponse('STATUS 200')
         else:
             return super(KinoogoFormView, self).post(request, *args, **kwargs)
