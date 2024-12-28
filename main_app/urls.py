@@ -11,7 +11,7 @@ urlpatterns = [
     path('', include('Basket.urls')),
     path('', include('parser_app.urls')),
     path('', include('users.urls')),
-    path('', include('recepti.urls')),
+    path('', include('recipes.urls')),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
