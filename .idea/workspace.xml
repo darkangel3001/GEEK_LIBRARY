@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08aae8df-c978-40ee-b62c-7cfa4c68eb15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env_example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/recipe/ingredient_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/recipe/list_collection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/recipe/list_ingredient.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basket/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basket/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipes/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipes/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipes/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recipe/confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recipe/confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recipe/create_collection.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recipe/create_collection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recipe/create_ingredient.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recipe/create_ingredient.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recipe/create_recipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recipe/create_recipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recipe/recipe_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recipe/recipe_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recipe/recipe_flour.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recipe/recipe_flour.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recipe/recipe_salty.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recipe/recipe_salty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recipe/recipe_sweet.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recipe/recipe_sweet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +94,7 @@
       <workItem from="1735293882902" duration="3268000" />
       <workItem from="1735384595611" duration="14742000" />
       <workItem from="1735399567281" duration="4880000" />
-      <workItem from="1735406839080" duration="630000" />
+      <workItem from="1735406839080" duration="940000" />
     </task>
     <servers />
   </component>
