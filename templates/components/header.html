@@ -39,7 +39,22 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="{% url 'createBasket' %}">Добавить корзину</a></li>
+                        <li><a class="dropdown-item" href="{% url 'createRecepti' %}">Добавить рецепт</a></li>
                         <li><a class="dropdown-item" href="{% url 'basketList' %}">Список корзин</a></li>
+                        <li><a class="dropdown-item" href="{% url 'recepti_list' %}">Список рецептов</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false" style="color: yellow;">
+                        Recepti
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{% url 'createRecepti' %}">Добавить рецепт</a></li>
+                        <li><a class="dropdown-item" href="{% url 'recepti_list' %}">Список рецептов</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
@@ -50,6 +65,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link enable" href="{% url 'kinoogo_list' %}" style="color: yellow;">Другие книги</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link enable" href="{% url 'recepti_list' %}" style="color: yellow;">Другие рецепты</a>
                 </li>
             </ul>
              <form action="{% url 'search' %}" method="GET" class="d-flex" role="search">
